@@ -29,6 +29,14 @@
 		<div class="container">
 			<h1>Frank Liu <br>Dynamic Web Apps Portfolio</h1>	
 			<img src="pj.jpg" alt='Frank Liu'>
+
+			<div class="row">
+				<div class="col-md-12 col-sm-12">
+					<h3>Project 2 Title</h3>
+					<a href="http://p2.fliupractice.me">View</a>
+					<a href="https://github.com/fliusym/e15project/tree/master/p2">github</a>
+				</div>
+			</div>	
 		</div>
 
 
