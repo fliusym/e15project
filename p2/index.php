@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
-		<title>E15 Project</title>
+		<title>Project 2</title>
 		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
 		
 		<!-- Latest compiled and minified CSS -->
@@ -27,24 +27,8 @@
 	</head>
 	<body>
 		<div class="container">
-			<h1>Frank Liu <br>Dynamic Web Apps Portfolio</h1>	
-			<img src="pj.jpg" alt='Frank Liu'>
+			<h1>E15 Project 2</h1>	
 
-			<div class="row">
-				<div class="col-md-12 col-sm-12">
-					<h3>Project 2 Title</h3>
-					<a href="http://p2.fliupractice.me">View</a>
-					<a href="https://github.com/fliusym/e15project/tree/master/p2">github</a>
-
-					<h3>Project 3 Title</h3>
-					<a href="http://p3.fliupractice.me">View</a>
-					<a href="https://github.com/fliusym/e15project/tree/master/p3">github</a>			
-
-					<h3>Project 4 Title</h3>
-					<a href="http://p4.fliupractice.me">View</a>
-					<a href="https://github.com/fliusym/e15project/tree/master/p4">github</a>								
-				</div>
-			</div>	
 		</div>
 
 
