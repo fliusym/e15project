@@ -27,7 +27,7 @@
 	<body>
 		<div class="container">
 			<h1>Frank Liu <br>Dynamic Web Apps Portfolio</h1>	
-			<img src="pj.jpg" alt='Frank Liu'>
+			<img src="fliu.jpg" alt='Frank Liu'>
 
 			<div class="row">
 				<div class="col-md-12 col-sm-12">
