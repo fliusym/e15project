@@ -31,19 +31,31 @@
 
 			<div class="row">
 				<div class="col-md-12 col-sm-12">
-					<h3>Project 2 Title</h3>
+					<h3>Project 2 </h3>
 					<a href="http://p2.fliupractice.me">View</a>
 					<a href="https://github.com/fliusym/e15project/tree/master/p2">github</a>
 
-					<h3>Project 3 Title</h3>
+					<h3>Project 3 </h3>
 					<a href="http://p3.fliupractice.me">View</a>
 					<a href="https://github.com/fliusym/e15project/tree/master/p3">github</a>			
 
-					<h3>Project 4 Title</h3>
+					<h3>Project 4 </h3>
 					<a href="http://p4.fliupractice.me">View</a>
 					<a href="https://github.com/fliusym/e15project/tree/master/p4">github</a>								
 				</div>
 			</div>	
+
+			<div class="row">
+				<h2>In 2+ sentences describe who you are and what you do</h2>
+				<p>I am a software engineer in a CAM company. My main job is to write code, review code
+					and improve our product for our customters. Outside work, I like play basketball.</p>
+				<h2>Why taking this course</h2>
+				<p>Our company has a plan to develop a web based product.</p>
+				<h2>Previous experiences with programming</h2>
+				<p>I have several years experience on c++, c# etc.</p>
+				<h2>Platforms I am working on</h2>
+				<p>Mainly PC. occasionally on Linux</p>
+			</div>
 		</div>
 
 
