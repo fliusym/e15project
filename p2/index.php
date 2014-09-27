@@ -13,17 +13,8 @@
 		<!-- Optional theme -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 
-		<style>
-			h1{
-				text-align: center;
-			}
+		<link rel="stylesheet" type="text/css" href="css/p2style.css">
 
-			img{
-				display: block;
-				margin: auto;
-				width: 50%;
-			}
-		</style>
 	</head>
 	<body>
 		<div class="container">
