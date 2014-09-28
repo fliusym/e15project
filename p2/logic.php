@@ -22,7 +22,7 @@ if(count($matchArray) > 10)
     $wordsDic = $matchArray;
 }
 
-var_dump($matchArray);
+//var_dump($matchArray);
 
 $specialCharacters = array('@','$','%','&','*');
 $password = "";
