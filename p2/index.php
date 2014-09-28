@@ -1,7 +1,7 @@
-<?php
-    error_reporting(-1);
-    ini_set('display_errors',1);
-?>
+<!--<?php
+ //   error_reporting(-1);
+ //   ini_set('display_errors',1);
+?>-->
 <!DOCTYPE html>
 <html>
 	<head>
@@ -31,18 +31,18 @@
 					<div class='form-group'>
 						<label class="col-xs-2" for="numberOfWords">Number of Words:</label>
 						<div class="col-md-4">
-						    <input type="number" id="numberOfWords"  name="numberOfWords" class="form-control" required max="9" min="1" placeholder="Max number is 9">
+						    <input type="number" id="numberOfWords"  name="numberOfWords" class="form-control" required max="9" min="1" value='<?php echo $number_words; ?>'>
 						</div>
 
 					</div>
 
 					<div class="col-xs-12" >
-					    <input type="checkbox" id="specialCharacter" name="addSpecialCharacter" >Special Character
+					    <input type="checkbox" id="specialCharacter" name="addSpecialCharacter" <?php echo $addSpecialCharacter ? "CHECKED" : ""; ?> >Special Character
 					    
 					</div>
 					<div class="col-xs-12" >
 					    
-					    <input type="checkbox" name="addNumber">Add Number
+					    <input type="checkbox" name="addNumber" <?php echo $addNumber ? "CHECKED" : ""; ?>>Add Number
 					</div>  
 
 					<br>
