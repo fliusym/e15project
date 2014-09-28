@@ -67,7 +67,9 @@
 			<br>
 
 			<div class='row'>
+
 				<div class="col-xs-12 col-md-8">
+					<a href='http://xkcd.com/936/'>xkcd password</a><br>
 				    <img class="comic" src='http://imgs.xkcd.com/comics/password_strength.png' alt='xkcd style passwords'>  
 				</div>
 			</div>
