@@ -1,5 +1,7 @@
 <?php
 
+require('wordDictionary.php');
+
 $wordsDic = array(
 'this',
 'is',
@@ -14,6 +16,11 @@ $wordsDic = array(
 'dock',
 'damn'
 );
+
+if(count($matchArray) > 10)
+{
+    $wordsDic = $matchArray;
+}
 
 $specialCharacters = array('@','$','%','&','*');
 $password = "";
