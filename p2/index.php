@@ -58,8 +58,8 @@
 			<br>
 			<div class='row'>
 				<label class="col-xs-2" for="GeneratedPassword">Generated Password:</label>
-				<div class="col-md-6 col-xs-12">
-				   <input type="text" id='GeneratedPassword' readonly="true" class="form-control"  placeholder="Generated Password" value="<?php echo $password?>">
+				<div class="col-md-8">
+				   <textarea readonly rows="1" cols='50' style="background-color: #dfdddd"><?php echo $password?></textarea>
 				</div>			
 			</div>
 
