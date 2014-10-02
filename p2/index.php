@@ -29,20 +29,22 @@
 			<div class='row'>
 				<form class='form-horizontal' action='index.php' method='post'>
 					<div class='form-group'>
-						<label class="col-xs-2" for="numberOfWords">Number of Words:</label>
-						<div class="col-md-4">
+						<label class="col-md-3" for="numberOfWords">Number of Words: <span style="font-size:11px;">(Max number is 9)</span></label>
+						<div class="col-md-3">
 						    <input type="number" id="numberOfWords"  name="numberOfWords" class="form-control" required max="9" min="1" value='<?php echo $number_words; ?>'>
 						</div>
 
 					</div>
 
 					<div class="col-xs-12" >
-					    <input type="checkbox" id="specialCharacter" name="addSpecialCharacter" <?php echo $addSpecialCharacter ? "CHECKED" : ""; ?> >Special Character
-					    
+					    <input type="checkbox" id="specialCharacter" name="addSpecialCharacter" <?php echo $addSpecialCharacter ? "CHECKED" : ""; ?> >
+					    <label>Special Character</label>
 					</div>
 					<div class="col-xs-12" >
 					    
-					    <input type="checkbox" name="addNumber" <?php echo $addNumber ? "CHECKED" : ""; ?>>Add Number
+					    <input type="checkbox" name="addNumber" <?php echo $addNumber ? "CHECKED" : ""; ?>>
+					    <label>Add Number</label>
+
 					</div>  
 
 					<br>
@@ -57,9 +59,9 @@
 			<br>
 			<br>
 			<div class='row'>
-				<label class="col-xs-2" for="GeneratedPassword">Generated Password:</label>
+				<label class="col-md-3" for="GeneratedPassword">Generated Password:</label>
 				<div class="col-md-8">
-				   <textarea readonly rows="1" cols='50' style="background-color: #dfdddd"><?php echo $password?></textarea>
+				   <textarea readonly rows="1" cols='50' style="background-color: #dfdddd; text-align:center "><?php echo $password?></textarea>
 				</div>			
 			</div>
 
