@@ -4,5 +4,7 @@
 ## Description
 The second project of course E15
 ## Demo
-To be added
+* http://screencast.com/t/wGjmBX63
+## outside code
+* http://www.paulnoll.com/Books/Clear-English/words-01-02-hundred.html
 
