@@ -29,7 +29,7 @@
 			<div class='row'>
 				<form class='form-horizontal' action='index.php' method='post'>
 					<div class='form-group'>
-						<label class="col-md-3" for="numberOfWords">Number of Words: <span style="font-size:11px;">(Max number is 9)</span></label>
+						<label class="col-md-3" for="numberOfWords">Number of Words: <span style="font-size:11px;font-weight:normal">(Max number is 9)</span></label>
 						<div class="col-md-3">
 						    <input type="number" id="numberOfWords"  name="numberOfWords" class="form-control" required max="9" min="1" value='<?php echo $number_words; ?>'>
 						</div>
