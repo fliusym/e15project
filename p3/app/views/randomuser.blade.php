@@ -57,7 +57,7 @@
 		@foreach($randomusers as $user)
 			<h3>{{ $user['name'] }}</h3>
 			<div class='container'>
-				@if(isset($user['birthdate']))
+				@if(isset($user['email']))
 					<p>{{ $user['email'] }}</p>
 				@endif
 				@if(isset($user['birthdate']))
