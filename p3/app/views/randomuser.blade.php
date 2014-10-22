@@ -67,11 +67,8 @@
 					<p>{{ $user['profile'] }}</p>
 				@endif
 			</div>
-
-
 		@endforeach
 	</div>
-
 	@endif
 @stop
 
