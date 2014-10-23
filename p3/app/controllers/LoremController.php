@@ -20,6 +20,11 @@ class LoremController extends BaseController
 
 	}
 
+	/**
+	*internal function to generate lorem lpsum text
+	*@param $numberparagraphs
+	* the number of paragraphs need to be generated
+	*/
 	private function generateLoremText($numberparagraphs)
 	{
 		$generator = new Badcow\LoremIpsum\Generator();
