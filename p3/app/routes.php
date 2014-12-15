@@ -23,3 +23,11 @@ Route::post('/lorem','LoremController@generateLorem');
 
 Route::get('/randomuser','RandomUserController@showRandomUser');
 Route::post('/randomuser','RandomUserController@generateRandomUser');
+
+Route::get('/trigger_error',function(){
+	$foo = new Foobar;
+});
+
+Route::get('/get-environment',function(){
+	echo "Environment: ".App::environment();
+});
