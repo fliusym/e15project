@@ -78,7 +78,7 @@ return array(
 	|
 	*/
 
-	'key' => 'va1un896NyYZqB0ddEAzTG4VfAtEoNDE',
+	'key' => 'UhKYpQATDRdnlJzmH7BHDElHgrq5lMA6',
 
 	'cipher' => MCRYPT_RIJNDAEL_128,
 
@@ -121,6 +121,8 @@ return array(
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
+		'Barryvdh\Debugbar\ServiceProvider',
+		'Laracasts\Utilities\UtilitiesServiceProvider',
 
 	),
 

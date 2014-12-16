@@ -24,11 +24,17 @@ $app = new Illuminate\Foundation\Application;
 |
 */
 
-$env = $app->detectEnvironment(array(
+$env = $app->detectEnvironment(function(){
 
-	'local' => array('homestead'),
+	#see if there is environment.php file
+	# if it exists, get environment string from there
+	if(file_exists(__DIR__.'/../Environment.php')){
+		return require __DIR__.'/../Environment.php';
+	}
+	#if not found, assume production as default
+	return 'production';
 
-));
+});
 
 /*
 |--------------------------------------------------------------------------

@@ -13,5 +13,39 @@
 
 Route::get('/', function()
 {
-	return View::make('hello');
+	return View::make('home');
+});
+
+//sign in routes
+Route::get('/signin','UserController@getLogin');
+Route::post('/signin','UserController@postLogin');
+
+//sign up routes
+Route::get('/signup','UserController@getSignup');
+Route::post('/signup','UserController@postSignup');
+
+//sign out route
+Route::get('/signout','UserController@getLogout');
+
+#some debug information
+Route::get('/debugEnvironment','DebugController@debugEnvironment');
+Route::get('/debugDatabase','DebugController@debugDatabase');
+
+
+#some test routes
+Route::get('/testdb',function(){
+	$username = 'ahla@umail.com';
+	$users = DB::table('users')->where('email','=',$username)->get();
+	$num = count($users);
+	var_dump($num);
+});
+
+
+Route::get('/testadd',function(){
+	return View::make('test');
+});
+
+Route::get('/ping',function(){
+	Log::info('Pinged log file');
+	return 'Pinged log file';
 });
