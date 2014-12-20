@@ -13,9 +13,9 @@ class AddThumbsupCountFieldToItemsTable extends Migration {
 	public function up()
 	{
 		//add the thumbsup count to the items table
-		Schema::table('items',function($table){
-			$table->integer('thumbsup_count');
-		});
+		// Schema::table('items',function($table){
+		// 	$table->integer('thumbsup_count');
+		// });
 
 	}
 
@@ -27,9 +27,9 @@ class AddThumbsupCountFieldToItemsTable extends Migration {
 	public function down()
 	{
 		//drop this column
-		Schema::table('items',function($table){
-			$table->dropColumn('thumbsup_count');
-		});
+		// Schema::table('items',function($table){
+		// 	$table->dropColumn('thumbsup_count');
+		// });
 	}
 
 }

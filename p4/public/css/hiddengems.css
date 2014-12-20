@@ -57,3 +57,15 @@ div.signup{
 	border-bottom-right-radius: 0;
 	border-bottom-left-radius: 0;
 }
+
+/*add new item style*/
+.floatrightbtn{
+	float: right;
+}
+.addnewitembtn{
+	visibility: hidden;
+}
+.sm{
+	min-width: 400px;
+	min-height: 40px;
+}

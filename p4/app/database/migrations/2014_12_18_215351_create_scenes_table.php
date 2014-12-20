@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreatePhotosTable extends Migration {
+class CreateScenesTable extends Migration {
 
 	/**
 	 * Run the migrations.
@@ -13,15 +13,18 @@ class CreatePhotosTable extends Migration {
 	public function up()
 	{
 		//
-		Schema::create('photos',function($table){
+		Schema::create('scenes',function($table){
 			$table->increments('id');
 			$table->timestamps();
 
+			#other fields
 			$table->string('title');
 			$table->text('description');
-		//	$table->integer('event_id')->unsigned();
+			$table->string('image');
 
-		//	$table->foreign('event_id')->references('id')->on('events');
+			$table->integer('item_id')->unsigned();
+			#foreign keys
+			$table->foreign('item_id')->references('id')->on('items');
 		});
 	}
 
@@ -33,7 +36,7 @@ class CreatePhotosTable extends Migration {
 	public function down()
 	{
 		//
-		Schema::drop('photos');
+		Schema::drop('scenes');
 	}
 
 }

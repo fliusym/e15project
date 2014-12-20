@@ -14,8 +14,8 @@ class Event extends Eloquent{
 	* define the relationship between event and photo
 	* an event has many photos 
 	*/
-	public function photo(){
-		# an event has many photos
-		return $this->hasMany('Photo');
-	}
+	// public function photo(){
+	// 	# an event has many photos
+	// 	return $this->hasMany('Photo');
+	// }
 }

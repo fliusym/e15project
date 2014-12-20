@@ -13,7 +13,7 @@
 			            <span class="icon-bar"></span>
 			            <span class="icon-bar"></span>
 			          </button>
-			          <a class="navbar-brand" href="/">Hidden Gems</a>
+			          <a class="navbar-brand" href="/">Share Trips</a>
 			        </div>
 
 			        <div id='navbar' class='navbar-collapse collapse'>
@@ -26,11 +26,12 @@
 			        			<li class='dropdown'>
 			        				<a href="#" class='dropdown-toggle' data-toggle='dropdown' role='button' aria-expanded='false'>{{Auth::user()->email}} <span class='caret'></span></a>
 			        				<ul class='dropdown-menu' role='menu'>
-			        					<li><a href="#">Profile</a></li>
-			        					<li><a href="#">Posted <span class='badge'>5</span></a></li>
+			        					<!-- <li><a href="#">Profile</a></li> -->
+			        					<li><a href="/sharemytravel">+Share</a></li>
+			        					<li><a href="/itemlist">Posted</a></li>
 			        				</ul>
 			        			</li>
-			        			<li><a href="/sharemytravel">+Share</a></li>
+			        			
 			        			<li><a href="/signout">Sign out</a></li>
 			        		@else
 			        			<li><a href="/signin" >Sign In</a></li>
@@ -58,9 +59,9 @@
 		    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
 		    <div class="container">
 		      <div class="carousel-caption">
-		        <h1>Example headline.</h1>
-		        <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-		        <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+		        <h1>Welcome to Share Trip.</h1>
+		        <p>From here you can share the most exciting moments in your trip.</p>
+		        <!-- <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p> -->
 		      </div>
 		    </div>
 		  </div>
@@ -68,9 +69,9 @@
 		    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAGZmZgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
 		    <div class="container">
 		      <div class="carousel-caption">
-		        <h1>Another example headline.</h1>
-		        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-		        <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+		        <h1>How It Works.</h1>
+		        <p>After registration, you can share any item and in each item you can add many scenes.</p>
+		        <!-- <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p> -->
 		      </div>
 		    </div>
 		  </div>

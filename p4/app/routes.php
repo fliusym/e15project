@@ -27,6 +27,23 @@ Route::post('/signup','UserController@postSignup');
 //sign out route
 Route::get('/signout','UserController@getLogout');
 
+//share new item route
+Route::get('/sharemytravel',function(){
+	return View::make('additem');
+});
+Route::post('/sharemytravel','ItemController@postShareItem');
+
+//item list
+Route::get('/itemlist','ItemListController@getList');
+Route::get('/itemlistupdate','ItemListController@getList');
+//edit item 
+Route::get('/item/edit/{id}','ItemListController@getItemEdit');
+Route::post('/item/edit','ItemListController@postItemEdit');
+//delete item
+Route::post('/item/delete','ItemListController@postItemDelete');
+
+
+
 #some debug information
 Route::get('/debugEnvironment','DebugController@debugEnvironment');
 Route::get('/debugDatabase','DebugController@debugDatabase');

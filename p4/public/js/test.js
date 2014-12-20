@@ -1,13 +1,15 @@
+
+
 $('#addbutton').click(function(){
 	var htmlStr = "<div class='container'><p>this is test</p></div>";
 	$('#finalpanel').before(
-		"<div class='container-fluid'>\
+		"<div id='newgroupbefore' class='container-fluid'>\
 			<div class='row'>\
 				<label>Title   </label>\
 				<input type='text'>\
 			</div>\
 			<div class='row'>\
-				<label>Title   </label>\
+				<label>Description   </label>\
 				<textarea rows='4' cols='50'></textarea>\
 			</div>\
 			<div class='row'>\
@@ -16,5 +18,15 @@ $('#addbutton').click(function(){
 			</div>\
 		</div>"
 		);
+});
+
+$('body').on('click','#eventokbutton',function(){
+	$('#eventokbutton').hide();
+	$('#eventcancelbutton').hide();
+	
+});
+
+$('body').on('click','#eventcancelbutton',function(){
+	$('#newgroupbefore').hide();
 });
 
