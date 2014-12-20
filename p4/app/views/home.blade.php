@@ -96,14 +96,14 @@
 		  </div>
 		  <div class="col-md-7">
 		    <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-		    <div class='row'>
+<!-- 		    <div class='row'>
 		    	<button type='button' class='btn btn-default'>
 		    	  <span class='glyphicon glyphicon-thumbs-up'> 5</span>
 		    	</button>
 		    	<button type='button' class='btn btn-default'>
 		    	  <span class='glyphicon glyphicon-thumbs-down'> 5</span>
 		    	</button>		    	
-		    </div>
+		    </div> -->
 
 		    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
 		  </div>
@@ -114,14 +114,14 @@
 		<div class="row featurette">
 		  <div class="col-md-7">
 		    <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-		    <div class='row'>
+<!-- 		    <div class='row'>
 		    	<button type='button' class='btn btn-default'>
 		    	  <span class='glyphicon glyphicon-thumbs-up'> 5</span>
 		    	</button>
 		    	<button type='button' class='btn btn-default'>
 		    	  <span class='glyphicon glyphicon-thumbs-down'> 5</span>
 		    	</button>		    	
-		    </div>
+		    </div> -->
 		    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
 		  </div>
 		  <div class="col-md-5">
