@@ -30,7 +30,9 @@ class ItemController extends BaseController{
 
 
 			#events from ajax
-			$_events = $_item['events'];
+			$_events = array();
+			if(isset($_item['events']))
+				$_events = $_item['events'];
 
 			foreach($_events as $_event) {
 				# create a new Event model

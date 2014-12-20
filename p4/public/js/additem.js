@@ -6,8 +6,8 @@ $('#neweventokbtn').click(function(){
 	var $eventTitle = $('#neweventtitle').val();
 	var $eventDescription = $('#neweventdescription').val();
 	var $eventPic = $('#neweventphoto').val();
-	var $itemTitle = $('#itemtitle').val();
-	var $itemDescription = $('#itemdescription').val();
+	// var $itemTitle = $('#itemtitle').val();
+	// var $itemDescription = $('#itemdescription').val();
 
 	if(document.getElementById('eventdescription') && document.getElementById('collapsetitle'))
 	{
@@ -50,11 +50,7 @@ $('#neweventokbtn').click(function(){
 		}
 	}
 	events[events.length] = eventObj;
-	item = {
-		title: $itemTitle,
-		description: $itemDescription,
-		events: events
-	};
+
 	
 	document.getElementById('collapsetitle').innerHTML = $eventTitle;
 	document.getElementById('eventdescription').innerHTML = $eventDescription;
@@ -64,6 +60,13 @@ $('#neweventokbtn').click(function(){
 });
 
 $('#addnewitembtn').click(function(){
+	var $itemTitle = $('#itemtitle').val();
+	var $itemDescription = $('#itemdescription').val();
+	item = {
+		title: $itemTitle,
+		description: $itemDescription,
+		events: events
+	};
 	$.ajax({
 		type: 'POST',
 		url: '/sharemytravel',

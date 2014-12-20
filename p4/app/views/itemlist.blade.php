@@ -35,6 +35,7 @@
 				<a href="/sharemytravel"></a>
 			</div>
 		@else
+		<!--style='visibility : hidden'-->
 			<div class='panel-group row' id='accordion' role='tablist' aria-multiselectable='true'>
 				@foreach($items as $item)
 					{{ Form::hidden('id',$item['id']); }}
@@ -50,7 +51,7 @@
 								</div>
 								<div class='col-md-4'>
 									<a href="/item/edit/{{$item['id']}}">Edit</a>
-									<span id='dummySpan' style='visibility : hidden' >{{$item['id']}}</span>
+									<span id='dummySpan' style='visibility : hidden'>{{$item['id']}}</span>
 									<button name="deleteitembtn-{{$item['id']}}" type='button' class='btn btn-default'>Delete</button>
 								</div>
 							</div>

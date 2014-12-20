@@ -78,7 +78,7 @@
 		        	</div>
 		        	<br>
 		        	<div class='row'>
-		        		{{Form::label('photo','Photo')}}
+		        		{{Form::label('photo','Image')}}
 		        		<input type='form-control' type='text' id='neweventphoto' class='sm'>
 		        	</div>
 		        	<br>

@@ -43,7 +43,8 @@ Route::post('/item/edit','ItemListController@postItemEdit');
 Route::post('/item/delete','ItemListController@postItemDelete');
 
 
-
+#below is some debug or test uses, don't want to delete them
+# since maybe used sometime later.
 #some debug information
 Route::get('/debugEnvironment','DebugController@debugEnvironment');
 Route::get('/debugDatabase','DebugController@debugDatabase');

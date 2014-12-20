@@ -15,7 +15,9 @@ This project is a simple application that tries to help user share exciting mome
 ## Known issues
 	* It looks like "remember me" is not working for me. Couldn't figure out how to solve it.
 	* While editing the item, currently user can't add or delete scenes.
-	*
+	* I should have added more rules like to see if the title is unique etc.
+	* Not using email verification.
+	* ....
 ## Demo
 
 ## Outside code

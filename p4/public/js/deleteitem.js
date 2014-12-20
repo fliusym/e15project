@@ -1,6 +1,9 @@
 
 $("button[name|='deleteitembtn']").click(function(){
-	var id = $('#dummySpan').text();
+	
+	var cur = $(this).attr('name');
+	//get the id of the item
+	var id = cur.substring(14);
 	$.ajax({
 		type: 'POST',
 		url: '/item/delete',
