@@ -19,6 +19,6 @@ This project is a simple application that tries to help user share exciting mome
 	* Not using email verification.
 	* ....
 ## Demo
-
+http://screencast.com/t/3PHYDRr7
 ## Outside code
 	* bootstrap: <http://getbootstrap.com/>
